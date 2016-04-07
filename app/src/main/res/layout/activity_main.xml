@@ -9,7 +9,147 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="au.edu.uow.assignment1.MainActivity">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="9">
 
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:weightSum="3">
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/11">
+            </com.example.test.assignment1.TileView>
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/12">
+            </com.example.test.assignment1.TileView>
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/13">
+            </com.example.test.assignment1.TileView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:weightSum="3">
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/14">
+            </com.example.test.assignment1.TileView>
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/15">
+            </com.example.test.assignment1.TileView>
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/16">
+            </com.example.test.assignment1.TileView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:weightSum="3">
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/17">
+            </com.example.test.assignment1.TileView>
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/18">
+            </com.example.test.assignment1.TileView>
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/19">
+            </com.example.test.assignment1.TileView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:weightSum="3">
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/110">
+            </com.example.test.assignment1.TileView>
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/111">
+            </com.example.test.assignment1.TileView>
+
+            <com.example.test.assignment1.TileView
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/112">
+            </com.example.test.assignment1.TileView>
+
+        </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
