@@ -1,5 +1,7 @@
 package au.edu.uow.assignment1;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -52,7 +54,29 @@ TileView.TileViewListener{
         for ( int i = 0; i < index; i++)
         {
             // retrive and set image
-            tempTileView[i]
+            tempTileView[i].image = gameModel.getImageID(i);
+            tempTileView[i].interfaceVariable = i;
+            tempTileView[i].coverStoredImage();
         }
     }
+
+    public void onClick (View tempview)
+    {
+        for ( int i = 0; i < index; i++)
+        {
+            if (tempview == tempTileView[i])
+            {
+                didSelectTile(tempTileView[i]);
+                Log.v("", tempTileView[i].toString());
+                tempTileView[i].revealStoredImage();
+            }
+        }
+    }
+
+    public void didSelectTile(TileView tempTileView)
+    {
+        gameModel.pushTileIndex(tempTileView.interfaceVariable);
+        gameModel.setturnIdentification();
+    }
+
 }

@@ -210,4 +210,9 @@ public class GameModel {
         void didFailToMatchTile();
         void scoreDidUpdate();
     }
+
+    public float getgScore()
+    {
+        return gScore;
+    }
 }

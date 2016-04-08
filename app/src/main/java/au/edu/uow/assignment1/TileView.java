@@ -9,11 +9,12 @@ import android.widget.LinearLayout;
 /**
  * Created by Uer on 4/6/2016.
  */
-public class TileView {
+public class TileView extends LinearLayout {
 
     public int image; // image
     ImageView tempImageView; // image view
-    public int interfaceVariable;
+    public int interfaceVariable; // tile variables
+
     public TileView(Context tempContext, AttributeSet tempAttributesSet)
     {
         super(tempContext, tempAttributesSet);
