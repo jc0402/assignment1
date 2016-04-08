@@ -140,6 +140,11 @@ public class GameModel {
         return tempDescription;
     }
 
+    public float getgScore()
+    {
+        return gScore;
+    }
+
     // function to return the last tile tapped
     public int getLastTileTapped()
     {
@@ -205,14 +210,10 @@ public class GameModel {
 
     public interface delegateMethods
     {
-        void gameDidComplete();
-        void didMatchTile();
-        void didFailToMatchTile();
-        void scoreDidUpdate();
+        void gameDidComplete(GameModel tempGameModel);
+        void didMatchTile(GameModel tempGameModel, int temptilenum, int pointToPreviousTile);
+        void didFailToMatchTile(GameModel tempGameModel, int temptilenum, int pointToPreviousTile);
+        void scoreDidUpdate(GameModel tempgamemodel, float tempNewScore);
     }
 
-    public float getgScore()
-    {
-        return gScore;
-    }
 }
