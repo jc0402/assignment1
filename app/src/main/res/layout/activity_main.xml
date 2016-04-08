@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="au.edu.uow.assignment1.MainActivity">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -29,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/11">
+                android:id="@+id/l1">
             </com.example.test.assignment1.TileView>
 
             <com.example.test.assignment1.TileView
@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/12">
+                android:id="@+id/l2">
             </com.example.test.assignment1.TileView>
 
             <com.example.test.assignment1.TileView
@@ -45,9 +45,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/13">
+                android:id="@+id/l3">
             </com.example.test.assignment1.TileView>
-    </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/14">
+                android:id="@+id/l4">
             </com.example.test.assignment1.TileView>
 
             <com.example.test.assignment1.TileView
@@ -70,7 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/15">
+                android:id="@+id/l5">
             </com.example.test.assignment1.TileView>
 
             <com.example.test.assignment1.TileView
@@ -78,7 +78,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/16">
+                android:id="@+id/l6">
             </com.example.test.assignment1.TileView>
 
         </LinearLayout>
@@ -96,7 +96,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/17">
+                android:id="@+id/l7">
             </com.example.test.assignment1.TileView>
 
             <com.example.test.assignment1.TileView
@@ -104,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/18">
+                android:id="@+id/l8">
             </com.example.test.assignment1.TileView>
 
             <com.example.test.assignment1.TileView
@@ -112,7 +112,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/19">
+                android:id="@+id/l9">
             </com.example.test.assignment1.TileView>
 
         </LinearLayout>
@@ -130,7 +130,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/110">
+                android:id="@+id/l10">
             </com.example.test.assignment1.TileView>
 
             <com.example.test.assignment1.TileView
@@ -138,7 +138,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/111">
+                android:id="@+id/l11">
             </com.example.test.assignment1.TileView>
 
             <com.example.test.assignment1.TileView
@@ -146,12 +146,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/112">
+                android:id="@+id/l12">
             </com.example.test.assignment1.TileView>
 
         </LinearLayout>
 
-    <TextView
+
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"

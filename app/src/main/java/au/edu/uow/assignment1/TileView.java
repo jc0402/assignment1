@@ -19,17 +19,17 @@ public class TileView extends LinearLayout {
     {
         super(tempContext, tempAttributesSet);
         LinearLayout tempLinearLayout = new LinearLayout(tempContext);
-        LinearLayout.LayoutParams tempLayoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
-                LinearLayout.LayoutParams.WRAP_CONTENT);
+        LinearLayout.LayoutParams tempLayoutParams = new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT,
+                LayoutParams.MATCH_PARENT);
 
         tempImageView = new ImageView(tempContext);
         addView(tempImageView, tempLayoutParams);
-        setListener(tempListener);
+        setOnClickListener(tempListener);
     }
 
     View.OnClickListener tempListener = new View.OnClickListener()
     {
-        public void clickViewImage(View tempview)
+        public void onClick(View view)
         {
             image = R.drawable.baldhill;
             tempImageView.setImageResource(image);
@@ -51,7 +51,7 @@ public class TileView extends LinearLayout {
     // function to hide the TileView image if two tiles successfully matched
     public void tempHideTileView()
     {
-        tempImageView.setImageResource(null);
+        tempImageView.setImageDrawable(null);//setImageDrawable(null);
     }
 
     public interface imageTileViewList
